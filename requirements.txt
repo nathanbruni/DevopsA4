@@ -1,0 +1,4 @@
+FROM Python 3.11.2
+WORKDIR /backend
+RUN pip3 install --upgrade pip3
+RUN pip3 install ctypes

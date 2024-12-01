@@ -16,7 +16,8 @@ In order for the website blocker to work properly, it is recommended the user cl
 Enjoy!
 
 GitHub repository: https://github.com/nathanbruni/DevopsA4
-Docker Hub Image: docker pull nathanbruni/website_blocker.v7
+Docker Hub Image (Pull Command): docker pull nathanbruni/website_blocker.v7
+Docker Hub Image URL: https://hub.docker.com/r/nathanbruni/website_blocker.v7
 
 Note: Does not run well from Docker container. The image should have some function in interactive mode but because Docker runs through Linux, the code will not function properly.
 For proper function, please download the code from GitHub and run on a Windows based IDE.

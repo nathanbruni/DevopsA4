@@ -7,9 +7,8 @@ websites = []
 
 # Asks the user for the websites they would like to block.
 def website_ask():
-    to_block = ""
     print("What website would you like to block?")
-    to_block = input()
+    to_block = str(input())
     # Ensures the website starts url notation
     if to_block.startswith("www.") == False:
         raise Exception("Please enter a valid website")
